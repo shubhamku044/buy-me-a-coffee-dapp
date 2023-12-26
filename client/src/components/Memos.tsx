@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import type { WalletConnection } from "../App";
-import { Coffee } from "../../../src/types";
+import { Coffee } from "../../types";
 
 interface IProps {
   walletConnection: WalletConnection;

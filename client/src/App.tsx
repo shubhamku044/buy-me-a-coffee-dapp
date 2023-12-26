@@ -1,4 +1,4 @@
-import abi from "../../artifacts/contracts/Coffee.sol/Coffee.json";
+import abi from "../abi/Coffee.json";
 import { BrowserProvider, Contract, Signer, ethers } from "ethers";
 import { useEffect, useState } from "react";
 import { MetaMaskInpageProvider } from "@metamask/providers/dist/MetaMaskInpageProvider";
